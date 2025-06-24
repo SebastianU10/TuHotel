@@ -1,9 +1,11 @@
 {
   "name": "expressjs-practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend para el proyecto TuHotel",
+  "main": "nodemon.js",
   "type": "module",
   "scripts": {
+    "start": "node nodemon.js",
     "dev": "node ./nodemon.js",
     "migration:run": "npx sequelize-cli db:migrate"
   },
